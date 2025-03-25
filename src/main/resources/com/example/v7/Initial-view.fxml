@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.v7.HelloController">
+
+        <GridPane BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="249.0" minWidth="10.0" prefWidth="173.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="299.0" minWidth="10.0" prefWidth="257.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="207.0" minWidth="10.0" prefWidth="170.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="229.0" minHeight="10.0" prefHeight="188.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="140.0" minHeight="10.0" prefHeight="99.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <children>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Quit" textAlignment="CENTER" />
+                        <Button contentDisplay="RIGHT" mnemonicParsing="false" prefWidth="80.0" text="Next" textAlignment="CENTER" />
+                    </children>
+                </HBox>
+                <VBox alignment="TOP_RIGHT" prefHeight="104.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <children>
+                        <TextField prefHeight="120.0" prefWidth="200.0" text="Goal Name" />
+                        <TextArea prefHeight="173.0" prefWidth="257.0" text="Your Goal.." />
+                        <Button mnemonicParsing="false" prefHeight="96.0" prefWidth="77.0" text="Add" />
+                    </children>
+                </VBox>
+            </children>
+        </GridPane>
+</AnchorPane>
