@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.v7.MainViewController">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" layoutX="-2.0" layoutY="-1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="197.0" prefWidth="600.0" />
+            <HBox alignment="CENTER" prefHeight="34.0" prefWidth="600.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="34.0" prefWidth="389.0" text="Goal 4 - Do fifteen push-ups" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="31.0" prefWidth="600.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="28.0" prefWidth="97.0" text="One Up">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <CheckBox alignment="CENTER" mnemonicParsing="false" prefHeight="35.0" prefWidth="151.0" text="mark as done">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </CheckBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="33.0" prefWidth="600.0" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <GridPane prefHeight="100.0" prefWidth="628.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="43.0" minHeight="5.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="81.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="79.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#onBackmain" text="Back">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+         </children></VBox>
+   </children>
+</AnchorPane>
