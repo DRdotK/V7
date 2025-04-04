@@ -1,7 +1,7 @@
 README of Verkefni 7 by Adam Krystian Sadowski and Dominik Robert Klukowski 
 
 4.4.25
-firt iteration includes
+First iteration includes
 Initial view,
 Event manager (with independend menu fxml),
 Goal managment and editor,
